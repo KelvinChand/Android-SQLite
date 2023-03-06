@@ -22,7 +22,7 @@ public class MyDatabaseHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        String query = "CREATE TABLE" + TABLE_NAME + "(" +
+        String query = "CREATE TABLE " + TABLE_NAME + "(" +
                 FIELD_ID + "INTEGER PRIMARY KEY AUTOINCREMENT,"+
                 FIELD_NAMA+ "VARCHAR(50)," +
                 FIELD_NOMOR + "INTEGER(2),"+
